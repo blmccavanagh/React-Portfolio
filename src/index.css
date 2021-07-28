@@ -5,6 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./images/background-image-dark.jpg");
+}
+
+.light-bg {
+  background-image: url("./images/background-image-xlight.png");
+}
+
+.profilepic {
+  background-image: url('./images/contact-profile-image.jpg');
 }
 
 code {

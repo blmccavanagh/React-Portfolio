@@ -139,32 +139,6 @@ export default function Home() {
               justify-between
             "
           >
-            <a
-              href="https://blmccavanagh.github.io/Professional-Portfolio/"
-              alt="A styled personal website icon providing a hyperlink to Bridget McCavanagh's professional portfolio website."
-              className="h-6 fill-current text-gray-600 hover:text-pink-700"
-              ><img
-                className="object-scale-down rounded"
-                src="../../images/contact-page/icons/portfolio.jpg"
-            /></a>
-
-            <a
-              href="tel:+61-0466-265-845"
-              alt="A styled telephone Icon with a phone link to contact +61-466-265-845."
-              className="h-6 fill-current text-gray-600 hover:text-pink-700"
-              ><img
-                className="object-scale-down rounded"
-                src="../../images/contact-page/icons/phone.jpg"
-            /></a>
-
-            <a
-              href="mailto:b@justcallmeb.com"
-              className="h-6 fill-current text-gray-600 hover:text-pink-700"
-              ><img
-                className="object-scale-down rounded"
-                src="../../images/contact-page/icons/email.jpg"
-                alt="A styled email icon providing a email link to b@justcallmeB.com"
-            /></a>
 
             <a
               href="https://www.instagram.com/exolvoppt"
@@ -203,22 +177,14 @@ export default function Home() {
                 className="object-scale-down rounded"
             /></a>
 
-            <a
-              href="../../download-items/resume.pdf"
-              download="Bridget McCavanagh - Resume"
-              alt="A styled document icon providing a hyperlink to a resume document download."
-              className="h-6 fill-current text-gray-600 hover:text-pink-700"
-              ><img
-                className="object-scale-down rounded"
-                src="../../images/contact-page/icons/resume.jpg"
-            /></a>
+
           </div>
         </div>
       </div>
 
-      <div className="w-full lg:w-2/5 z-10 object-right">
+      <div className="w-full lg:w-2/5 z-10 object-right -ml-8">
         <img
-          src="assets/images/contact-profile-image.jpg"
+          src="../../images/contact-profile-image.jpg"
           className="
             rounded-none
             lg:rounded-lg
