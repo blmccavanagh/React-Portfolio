@@ -1,7 +1,12 @@
 import React from 'react';
+import resume from '../images/resume.png'
 
 export default function Resume() {
   return (
-    <div>resume page</div>
+    <div>
+      
+    <img className="rounded-lg mx-auto" src={ resume } />
+
+    </div>
   );
 }
