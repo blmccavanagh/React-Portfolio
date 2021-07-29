@@ -1,6 +1,8 @@
 import { link } from 'fs';
 import React from 'react';
+import navigation from './Navigation.css';
 import { Link, useLocation } from 'react-router-dom';
+
 export default function Navigation() {
 
 
@@ -8,23 +10,23 @@ export default function Navigation() {
 
   const links = [
     {
-      name: "Home",
+      name: " Home ",
       uri: '/'
     },
     {
-      name: "About",
+      name: " About ",
       uri: '/about'
     },
     {
-      name: "Contact",
+      name: " Contact ",
       uri: "/contact"
     },
     {
-      name: "Portfolio",
+      name: " Portfolio ",
       uri: "/portfolio"
     },
     {
-      name: "Resume",
+      name: " Resume ",
       uri: "/resume"
     },
   ]
@@ -53,7 +55,7 @@ export default function Navigation() {
   }
 
   return (
-    <div>
+    <div className="text-white justify-end">
       {render()}
     </div>
       
