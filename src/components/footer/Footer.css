@@ -18,11 +18,27 @@ footer {
     animation: grad-bg 10s infinite alternate;
 }
 
+.glow {
+    color: #fff;
+    -webkit-animation: glow 4s ease-in-out infinite alternate;
+    -moz-animation: glow 4s ease-in-out infinite alternate;
+    animation: glow 4s ease-in-out infinite alternate;
+}
+
 @keyframes grad-bg {
     0%{
         background-position: left;
     }
     100%{
         background-position: right;
+    }
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 4px #fff, 0 0 6px #FC05F8, 0 0 8px #FC05F8, 0 0 10px #FC05F8, 0 0 12px #FC05F8, 0 0 14px #FC05F8;
+    }
+    to {
+        text-shadow: 0 0 4px #fff, 0 0 6px #4e0166, 0 0 8px #4e0166, 0 0 10px #4e0166, 0 0 12px #4e0166, 0 0 14px #4e0166, 0 0 16px #4e0166;
     }
 }

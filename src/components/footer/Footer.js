@@ -5,7 +5,7 @@ import email from '../../images/icons/email.PNG';
 export default function Footer() {
   return (
     <div>
-          <footer id="footer" className="handwriting shadow px-10 shadow-2xl"><span className="glow">Made by </span><span>B.</span>
+          <footer id="footer" className="handwriting shadow px-10 shadow-2xl"><span className="glow">Made by B.</span>
           <br />
         <div className="grid grid-cols-4 lg:grid-cols-8 grid-rows-2 lg:grid-rows-1 gap-2">
             
