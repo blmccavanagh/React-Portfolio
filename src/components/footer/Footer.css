@@ -1,0 +1,28 @@
+footer {
+    font-size: 1rem;
+    margin: 25px auto 0;
+    padding: 10px;
+    width: 45%;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    border-radius: 6rem 2rem;
+}
+
+#footer {
+    /* gradiet Varaiable */
+    --gradient: linear-gradient(45deg, #000000, #111111, #333333, #555555, #777777);
+    background-image:var(--gradient);
+    background-size: 600%;
+    background-position: left;
+    animation: grad-bg 10s infinite alternate;
+}
+
+@keyframes grad-bg {
+    0%{
+        background-position: left;
+    }
+    100%{
+        background-position: right;
+    }
+}
