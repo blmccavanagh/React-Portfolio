@@ -6,8 +6,7 @@ export default function Footer() {
   return (
     <div>
           <footer id="footer" className="handwriting shadow px-10 shadow-2xl"><span className="glow">Made by B.</span>
-          <br />
-        <div className="grid grid-cols-4 lg:grid-cols-8 grid-rows-2 lg:grid-rows-1 gap-2">
+        <div className="grid grid-cols-4 md:grid-cols-7 lg:grid-cols-7 lg:grid-rows-1 gap-2 justify-center">
             
             <a href="tel:+61-0466-265-845"
                 alt="A styled telephone Icon with a phone link to contact +61-466-265-845."><i class="fas fa-mobile-alt"></i></a>
