@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
+import horiseon from '../../images/horiseon.png';
 
 export default function Project() {
 
@@ -8,7 +9,7 @@ export default function Project() {
       title: 'Horiseon Social Solution Services Code Refactor',
       liveLink: 'https://blmccavanagh.github.io/Horiseon-Social-Solution-Services-Code-Refactor/',
       github: 'https://github.com/blmccavanagh/Horiseon-Social-Solution-Services-Code-Refactor',
-      image: 'url'
+      image: horiseon
     },
     {
       title: 'Code Quiz',
@@ -107,9 +108,8 @@ export default function Project() {
       <div>
 
         {projects.map((project) => {
-          return <ProjectCard key={project.title} title={project.title}>
-            <a href={project.liveLink}>{project.liveIcon}</a>
-            <a href={project.github}></a>
+          return <ProjectCard key={project.title} title={project.title} liveLink={project.liveLink} github={project.github} image={project.image}>
+
           </ProjectCard>
         })}
 
