@@ -4,9 +4,12 @@ import resume from '../images/resume.png'
 export default function Resume() {
   return (
     <div>
-      
-    <img className="rounded-lg mx-auto" src={ resume } />
+      <div>
 
+        <img className="rounded-lg mx-auto" src={resume} />
+
+      </div>
+      <br />
     </div>
   );
 }
