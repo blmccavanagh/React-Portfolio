@@ -11,7 +11,7 @@ export default function Navigation() {
   const links = [
     {
       name: " Home ",
-      uri: '/'
+      uri: '/React-Portfolio/'
     },
     {
       name: " About ",
