@@ -20,11 +20,11 @@ function App() {
           <Layout>
 
 
-            <Route exact path="/" component={Home} ></Route>
-            <Route exact path="/about" component={About} ></Route>
-            <Route exact path="/contact" component={Contact} ></Route>
-            <Route exact path="/portfolio" component={Portfolio} ></Route>
-            <Route exact path="/resume" component={Resume} ></Route>
+            <Route exact path="/React-Portfolio/" component={Home} ></Route>
+            <Route exact path="/React-Portfolio/about" component={About} ></Route>
+            <Route exact path="/React-Portfolio/contact" component={Contact} ></Route>
+            <Route exact path="/React-Portfolio/portfolio" component={Portfolio} ></Route>
+            <Route exact path="/React-Portfolio/resume" component={Resume} ></Route>
           </Layout>
 
 
