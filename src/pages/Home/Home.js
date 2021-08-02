@@ -144,38 +144,23 @@ export default function Home() {
               href="https://www.instagram.com/exolvoppt"
               target="_blank"
               className="h-6 fill-current text-gray-600 hover:text-pink-700"
-              ><img
-                className="object-scale-down rounded"
-                src="./images/icons/instagram.PNG"
-                alt="A styled Instagram.com icon providing a hyperlink to the website."
-            /></a>
+              ><i class="fab fa-instagram-square text-black"></i></a>
 
             <a
               href="https://twitter.com/blmccavanagh" target="_blank" 
               className="h-6 fill-current text-gray-600 hover:text-pink-700"
-              ><img
-                className="object-scale-down rounded"
-                src="./images/icons/twitter.PNG"
-                alt="A styled Twitter.com icon providing a hyperlink to the website."
-            /></a>
+              ><i class="fab fa-twitter-square text-black"></i></a>
 
             <a
               href="https://www.linkedin.com/in/blmccavanagh" target="_blank" 
               alt="A styled Linkedin.com icon providing a hyperlink to the website."
               className="h-6 fill-current text-gray-600 hover:text-pink-700"
-              ><img
-                className="object-scale-down rounded"
-                src="./images/icons/linkedin.PNG"
-            /></a>
+              ><i class="fab fa-linkedin text-black"></i></a>
 
             <a
               href="https://github.com/blmccavanagh" target="_blank" 
               className="h-6 fill-current text-gray-600 hover:text-pink-700"
-              ><img
-                src="./images/icons/github.PNG"
-                alt="A styled GitHub.com icon providing a hyperlink to the user profile on the website."
-                className="object-scale-down rounded"
-            /></a>
+              ><i class="fab fa-github-square text-black"></i></a>
 
 
           </div>
