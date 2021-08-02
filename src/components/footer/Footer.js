@@ -18,7 +18,7 @@ export default function Footer() {
             <a href="https://www.linkedin.com/in/blmccavanagh"
                 alt="A styled Linkedin.com icon providing a hyperlink to the website." className="object-scale-down"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://github.com/blmccavanagh" className="object-scale-down"><i class="fab fa-github"></i></a>
-            <a href="assets/download-items/resume.pdf" download="Bridget McCavanagh - Resume"
+            <a href="../../download/resume.pdf" download="Bridget McCavanagh - Resume"
                 alt="A styled document icon providing a hyperlink to a resume document download."><i class="fas fa-file-export"></i></a>
             
         </div>
