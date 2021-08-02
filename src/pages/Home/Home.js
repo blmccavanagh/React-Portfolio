@@ -47,7 +47,7 @@ export default function Home() {
           ></div>
 
           <h1 className="text-3xl pt-8 lg:pt-0">
-            <span className="railway flicker name">B</span>ridget Louise McCavanagh
+            Bridget Louise McCavanagh
           </h1>
           <div
             className="
@@ -110,7 +110,7 @@ export default function Home() {
           </p>
 
           <div className="pt-12 pb-8">
-            <a href="https://blmccavanagh.github.io/Professional-Portfolio/portfolio.html">
+            <a href="/portfolio">
               <button
                 className="
                   bg-pink-400
@@ -151,7 +151,7 @@ export default function Home() {
             /></a>
 
             <a
-              href="https://twitter.com/blmccavanagh"
+              href="https://twitter.com/blmccavanagh" target="_blank" 
               className="h-6 fill-current text-gray-600 hover:text-pink-700"
               ><img
                 className="object-scale-down rounded"
@@ -160,7 +160,7 @@ export default function Home() {
             /></a>
 
             <a
-              href="https://www.linkedin.com/in/blmccavanagh"
+              href="https://www.linkedin.com/in/blmccavanagh" target="_blank" 
               alt="A styled Linkedin.com icon providing a hyperlink to the website."
               className="h-6 fill-current text-gray-600 hover:text-pink-700"
               ><img
@@ -169,7 +169,7 @@ export default function Home() {
             /></a>
 
             <a
-              href="https://github.com/blmccavanagh"
+              href="https://github.com/blmccavanagh" target="_blank" 
               className="h-6 fill-current text-gray-600 hover:text-pink-700"
               ><img
                 src="../../images/contact-page/icons/github.jpg"
