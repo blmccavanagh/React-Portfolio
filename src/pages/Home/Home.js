@@ -146,7 +146,7 @@ export default function Home() {
               className="h-6 fill-current text-gray-600 hover:text-pink-700"
               ><img
                 className="object-scale-down rounded"
-                src="../../images/contact-page/icons/instagram.jpg"
+                src="./images/icons/instagram.PNG"
                 alt="A styled Instagram.com icon providing a hyperlink to the website."
             /></a>
 
@@ -155,7 +155,7 @@ export default function Home() {
               className="h-6 fill-current text-gray-600 hover:text-pink-700"
               ><img
                 className="object-scale-down rounded"
-                src="../../images/contact-page/icons/twitter.jpg"
+                src="./images/icons/twitter.PNG"
                 alt="A styled Twitter.com icon providing a hyperlink to the website."
             /></a>
 
@@ -165,14 +165,14 @@ export default function Home() {
               className="h-6 fill-current text-gray-600 hover:text-pink-700"
               ><img
                 className="object-scale-down rounded"
-                src="../../images/contact-page/icons/linkedin.jpg"
+                src="./images/icons/linkedin.PNG"
             /></a>
 
             <a
               href="https://github.com/blmccavanagh" target="_blank" 
               className="h-6 fill-current text-gray-600 hover:text-pink-700"
               ><img
-                src="../../images/contact-page/icons/github.jpg"
+                src="./images/icons/github.PNG"
                 alt="A styled GitHub.com icon providing a hyperlink to the user profile on the website."
                 className="object-scale-down rounded"
             /></a>
@@ -184,7 +184,7 @@ export default function Home() {
 
       <div className="w-full lg:w-2/5 z-10 object-right -ml-8">
         <img
-          src="../../images/contact-profile-image.jpg"
+          src="./images/contact-profile-image.jpg"
           className="
             rounded-none
             lg:rounded-lg

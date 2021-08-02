@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import email from '../../images/icons/email.PNG';
 
 export default function Footer() {
   return (
