@@ -4,8 +4,8 @@ import './Footer.css';
 export default function Footer() {
   return (
     <div>
-          <footer id="footer" className="handwriting shadow px-10 shadow-2xl"><span className="glow">Made by B.</span>
-        <div className="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-8 lg:grid-rows-1 gap-2 justify-between">
+          <footer id="footer" className="handwriting shadow px-10 pt-8 shadow-2xl"><span className="glow">Made by B.</span>
+        <div className="grid grid-cols-4 py-4 md:grid-cols-8 lg:grid-cols-8 lg:grid-rows-1 gap-2 justify-between">
             
             <a href="https://blmccavanagh.github.io/Professional-Portfolio/"
                 alt="A styled personal website icon providing a hyperlink to Bridget McCavanagh's professional portfolio website."><i class="fas fa-briefcase"></i></a>
