@@ -5,7 +5,7 @@ import header from './Header.css';
 export default function Header() {
   return (
     <div>
-      <h1 className="handwriting headerText">Just call me B.</h1>
+      <h1 className="handwriting headerText">Just call me <span class="text-pink-300">B.</span></h1>
 
 
     </div>
