@@ -1,0 +1,15 @@
+.glowPortfolio {
+    color: #fff;
+    -webkit-animation: glow 4s ease-in-out infinite alternate;
+    -moz-animation: glow 4s ease-in-out infinite alternate;
+    animation: glow 4s ease-in-out infinite alternate;
+}
+
+@keyframes glowPortfolio {
+    from {
+        text-shadow: 0 0 1px rgb(0, 0, 0), 0 0 2px #fff, 0 0 3px #FC05F8, 0 0 4px #FC05F8, 0 0 5px #FC05F8, 0 0 6px #FC05F8, 0 0 7px #FC05F8;
+    }
+    to {
+        text-shadow: 0 0 2px #fff, 0 0 3px #4e0166, 0 0 4px #4e0166, 0 0 5px #4e0166, 0 0 6px #4e0166, 0 0 7px #4e0166, 0 0 8px #4e0166;
+    }
+}

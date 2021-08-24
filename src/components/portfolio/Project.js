@@ -1,10 +1,22 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import horiseon from '../../images/horiseon.png';
+import inRetrograde from '../../images/in-retrograde.png';
+import codeQuiz from '../../images/code-quiz.png';
+import passwordGenerator from '../../images/password-generator.png';
+import workScheduler from '../../images/work-scheduler.png';
+import weatherDashboard from '../../images/weather-dashboard.png';
+import readMeGen from '../../images/read-me-gen.png';
 
 export default function Project() {
 
   const projects = [
+    {
+      title: 'In Retrograde',
+      liveLink: 'https://in-retrograde.herokuapp.com/',
+      github: 'https://github.com/blmccavanagh/In-Retrograde',
+      image: inRetrograde
+    },
     {
       title: 'Horiseon Social Solution Services Code Refactor',
       liveLink: 'https://blmccavanagh.github.io/Horiseon-Social-Solution-Services-Code-Refactor/',
@@ -15,31 +27,31 @@ export default function Project() {
       title: 'Code Quiz',
       liveLink: 'https://blmccavanagh.github.io/Code-Quiz/',
       github: 'https://github.com/blmccavanagh/Code-Quiz',
-      image: 'url'
+      image: codeQuiz
     },
     {
       title: 'Password Generator',
       liveLink: 'https://blmccavanagh.github.io/Password-Generator/',
       github: 'https://github.com/blmccavanagh/Password-Generator',
-      image: 'url'
+      image: passwordGenerator
     },
     {
       title: 'Work Day Scheduler',
       liveLink: 'https://blmccavanagh.github.io/Work-Day-Scheduler/',
       github: 'https://github.com/blmccavanagh/Work-Day-Scheduler',
-      image: 'url'
+      image: workScheduler
     },
     {
       title: 'Weather Dashboard',
       liveLink: 'https://blmccavanagh.github.io/Weather-Dashboard/',
       github: 'https://github.com/blmccavanagh/Weather-Dashboard',
-      image: 'url'
+      image: weatherDashboard
     },
     {
       title: 'README Generator',
       liveLink: '',
       github: 'https://github.com/blmccavanagh/README-Generator',
-      image: 'url'
+      image: readMeGen
     },
     {
       title: 'Note Taker',
@@ -105,7 +117,7 @@ export default function Project() {
 
 
   return (
-      <div>
+      <div className="grid grid-cols-3 gap-4 text-white text-center">
 
         {projects.map((project) => {
           return <ProjectCard key={project.title} title={project.title} liveLink={project.liveLink} github={project.github} image={project.image}>

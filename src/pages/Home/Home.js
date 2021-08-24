@@ -144,23 +144,23 @@ export default function Home() {
               href="https://www.instagram.com/exolvoppt"
               target="_blank"
               className="h-6 fill-current text-gray-600 hover:text-pink-700"
-              ><i class="fab fa-instagram-square text-black"></i></a>
+              ><i class="fab fa-instagram-square text-black fa-2x"></i></a>
 
             <a
               href="https://twitter.com/blmccavanagh" target="_blank" 
               className="h-6 fill-current text-gray-600 hover:text-pink-700"
-              ><i class="fab fa-twitter-square text-black"></i></a>
+              ><i class="fab fa-twitter-square text-black fa-2x"></i></a>
 
             <a
               href="https://www.linkedin.com/in/blmccavanagh" target="_blank" 
               alt="A styled Linkedin.com icon providing a hyperlink to the website."
               className="h-6 fill-current text-gray-600 hover:text-pink-700"
-              ><i class="fab fa-linkedin text-black"></i></a>
+              ><i class="fab fa-linkedin text-black fa-2x"></i></a>
 
             <a
               href="https://github.com/blmccavanagh" target="_blank" 
               className="h-6 fill-current text-gray-600 hover:text-pink-700"
-              ><i class="fab fa-github-square text-black"></i></a>
+              ><i class="fab fa-github-square text-black fa-2x"></i></a>
 
 
           </div>

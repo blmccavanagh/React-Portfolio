@@ -8,9 +8,9 @@ export default function ProjectCard(props) {
             <div className="box-content h-50 w-50">
             <h1>{props.title}</h1>
 
-            <a href={props.liveLink}><i class="fas fa-globe"></i></a>
-            <a href={props.github}><i class="fab fa-github"></i></a>
-            <img className="object-contain md:object-scale-down" src={props.image} />
+            <a href={props.liveLink} className="glowPortfolio"><i className="fas fa-globe fa-2x m-2"></i></a>
+            <a href={props.github} className="glowPortfolio"><i className="fab fa-github fa-2x m-2"></i></a>
+            <img className="mx-auto object-contain md:object-scale-down h-52 w-80 my-4" src={props.image} />
             </div>
 
         </div>
