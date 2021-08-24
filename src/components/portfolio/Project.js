@@ -119,7 +119,7 @@ export default function Project() {
     },
     {
       title: 'E-Commerce Back End',
-      liveLink: '',
+      liveLink: 'https://github.com/blmccavanagh/E-Commerce-Back-End',
       github: 'https://github.com/blmccavanagh/E-Commerce-Back-End',
       image: eCommerce
     },
