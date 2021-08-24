@@ -17,10 +17,10 @@ export default function Navigation() {
       name: " About ",
       uri: '/about'
     },
-    {
-      name: " Contact ",
-      uri: "/contact"
-    },
+    // {
+    //   name: " Contact ",
+    //   uri: "/contact"
+    // },
     {
       name: " Portfolio ",
       uri: "/portfolio"
@@ -55,7 +55,7 @@ export default function Navigation() {
   }
 
   return (
-    <div className="text-white justify-end">
+    <div className="inline text-white float-right">
       {render()}
     </div>
       

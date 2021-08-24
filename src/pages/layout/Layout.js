@@ -10,8 +10,6 @@ export default function Layout(props) {
             <div className="flex">
             <Header></Header>
 
-            <Navigation className="object-right-top"></Navigation>
-
             </div>
 
                 {props.children}

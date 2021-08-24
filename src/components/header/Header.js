@@ -4,8 +4,10 @@ import header from './Header.css';
 
 export default function Header() {
   return (
-    <div>
+    <div className="flex">
       <h1 className="handwriting headerText">Just call me <span class="text-pink-300">B.</span></h1>
+
+      <Navigation />
 
 
     </div>
