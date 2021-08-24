@@ -1,4 +1,5 @@
 import React from 'react';
+import headshot from '../../images/contact-profile-image.jpg';
 
 export default function Home() {
   return (
@@ -169,7 +170,7 @@ export default function Home() {
 
       <div className="w-full lg:w-2/5 z-10 object-right -ml-8">
         <img
-          src="./images/contact-profile-image.jpg"
+          src={headshot}
           className="
             rounded-none
             lg:rounded-lg
