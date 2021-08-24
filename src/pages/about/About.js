@@ -4,9 +4,9 @@ import about from './About.css';
 export default function About() {
     return (
         <div>
-            <div class="light-bg mx-8 p-8 rounded-xl">
+            <div className="light-bg mx-8 p-8 rounded-xl">
                 <h1>My name is <span class="handwriting text-pink-500">Bridget Louise McCavanagh</span>. . .</h1>
-                <h2>. . . but call me <span class="handwriting underline text-pink-500">B.</span></h2>
+                <h2>. . . but call me <span className="handwriting underline text-pink-500">B.</span></h2>
 
                 <div>
                     <p>I do many things.</p>
@@ -24,9 +24,9 @@ export default function About() {
                         may strive for perfection, I will always appreciate the value of the mistakes we make. Mistakes
                         keep us learning. They keep us nimble and creative and keep us focussed on expansion, not
                         stagnation.</p>
-                    <p>Enough talk, the work below can say the rest.</p>
-                    <p>If you are interested in working with me, contact me <a href="/contact"
-                        class="handwriting underline text-pink-500">here.</a></p>
+                    <p>Enough talk, my portfolio can say the rest.</p>
+                    <p>If you are interested in working with me, contact me <a href="mailto:b@justcallmeb.com"
+                        className="handwriting underline text-pink-500">here.</a></p>
                 </div>
             </div>
             <br />
