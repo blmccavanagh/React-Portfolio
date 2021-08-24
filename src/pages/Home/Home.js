@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import headshot from '../../images/contact-profile-image.jpg';
 
 export default function Home() {
@@ -111,7 +112,7 @@ export default function Home() {
           </p>
 
           <div className="pt-12 pb-8">
-            <a href="/portfolio">
+          <Link to="/portfolio">
               <button
                 className="
                   bg-pink-400
@@ -124,7 +125,7 @@ export default function Home() {
               >
                 View Portfolio
               </button>
-            </a>
+            </Link>
           </div>
 
           <div
