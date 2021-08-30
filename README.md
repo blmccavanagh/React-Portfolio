@@ -102,3 +102,85 @@ Customisations included layout and styling by utilising the TailwindCSS framewor
 
 ### Challenges
 
+**Write about challenges here**
+*The development of this application was centered around the use of React*
+*React is new for me. Components, linking, react-router-dome etc*
+*Implementing Tailwind CSS in the back end. Configuring it to work, using CRACO*
+
+I installed Tailwind CSS to serve as a CSS framework to use in my HTML generation as I have become familiar with it's syntax and used it successfully in previous projects. Tailwind CSS allowed for the use of responsive design for my HTML generation, ensuring that it looked correct on desktop, tablets and mobile devices.
+
+### Future Development Opportunities
+
+Future development opportunities for the application can be focused on both the back end database and the user interface used to run the application.
+
+The next focus point will be centered around the creation of a "Contact Me" page, where visitors to my portfolio can contact me directly. Utilising a technology such as nodemailer would allow for this to be implemented.
+
+As this was originally a proof of concept application, this was not developed for the first release but would be a focus for a production version of the application.
+
+---
+
+## License
+
+This repository is licensed under the MIT license.
+
+---
+
+## Contributing
+
+No contributions at this time.
+
+---
+
+## Questions
+
+If you have any questions, check out my <a href="https://www.github.com/blmccavanagh">GitHub</a> or email me <a href="mailto:blmccavanagh@gmail.com">here</a>.
+
+---
+
+<div align="center">
+
+**Thank you for visiting.**
+
+</div>
+
+---
+
+### Repository Link:
+
+* https://github.com/blmccavanagh/React-Portfolio
+
+---
+
+### Deployed Application Link:
+
+* https://blmccavanagh.github.io/Professional-Portfolio/
+
+---
+
+<div align="center">
+
+### Application Screenshots:
+
+*Homepage Desktop Screen Capture*
+
+![homepage demo](./README-images/home-webpage-screen-capture.png)
+
+---
+
+*Portfolio Desktop Screen Capture*
+
+![portfolio demo](./README-images/portfolio-webpage-screen-capture.png)
+
+---
+
+*Homepage Mobile View Screen Capture*
+
+![homepage demo mobile view](./README-images/home-mobile-device-view-screen-capture.png)
+
+---
+
+*Portfolio Mobile View Screen Capture*
+
+![portfolio demo mobile view](./README-images/portfolio-mobile-device-view-screen-capture.png)
+
+---
