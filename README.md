@@ -74,9 +74,9 @@ React is a free and open-source front-end JavaScript library for building user i
 
 Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
 
-I implemented the use of CRACO, **C**reate **R**eact **A**pp **C**onfiguration **O**verride, an easy and comprehensible configuration layer for create-react-app, in order to tilise Tailwind CSS to style this application.
+I implemented the use of CRACO, **C**reate **R**eact **A**pp **C**onfiguration **O**verride, an easy and comprehensible configuration layer for create-react-app, in order to utilise Tailwind CSS to style this application.
  
-Links to the languges and tools used to build this project are included below:
+Links to the languages and tools used to build this project are included below:
 
 * HTML5
 * Javascript ES6
@@ -89,6 +89,8 @@ Links to the languges and tools used to build this project are included below:
     * https://fontawesome.com/
 * React :
     * https://reactjs.org/
+* CRACO :
+    * https://github.com/gsoft-inc/craco
 * Node.js :
     * https://nodejs.org/
 * NPM :
@@ -102,12 +104,11 @@ Customisations included layout and styling by utilising the TailwindCSS framewor
 
 ### Challenges
 
-**Write about challenges here**
-*The development of this application was centered around the use of React*
-*React is new for me. Components, linking, react-router-dome etc*
-*Implementing Tailwind CSS in the back end. Configuring it to work, using CRACO*
+While I had the design plan for my portfolio, implementing it to a level that I was satisfied was a challenge that I faced.
 
 I installed Tailwind CSS to serve as a CSS framework to use in my HTML generation as I have become familiar with it's syntax and used it successfully in previous projects. Tailwind CSS allowed for the use of responsive design for my HTML generation, ensuring that it looked correct on desktop, tablets and mobile devices.
+
+Using React to create components for my portfolio posed my greatest challenge. I had to learn how to link my pages together with the use of React Router DOM. While this first presented me with a challenge, I was able to successfully implement these technologies and deploy a functional application.
 
 ### Future Development Opportunities
 
