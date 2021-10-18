@@ -154,7 +154,7 @@ If you have any questions, check out my <a href="https://www.github.com/blmccava
 
 ### Deployed Application Link:
 
-* https://blmccavanagh.github.io/Professional-Portfolio/
+* https://blmccavanagh.github.io/React-Portfolio/
 
 ---
 
